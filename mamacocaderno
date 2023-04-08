@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamaco King Bic</title>
+  
+
+    
+  </head>
+  
+  <body>
+    <h1> Papelaria Mamaco King</h1>
+    <h3>Produto em promoção</h3>
+    <br/><br/>
+
+      <style> 
+     
+         body{ display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+          height: 100vh;
+          margin: 50;}
+
+          #background-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("imagnes/papelaria.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover; 
+            opacity: 0.1;
+            z-index: -1; 
+          }       
+
+          
+    </style>
+
+       
+    <img src="imagnes/mamaco/caderno.jpeg" alt="caderno"style="height: 300px;"> 
+    <p><h5>Caderno Espiral Capa Dura Universitário 10 Matérias Zip Preto 160 Folhas, Tilibra, 305421</h5></p>
+       
+    <div id="background-image"></div>
+    
+       <br/>
+
+        <a href="Mamaco King preços.html">Voltar</a>   
+        <a href="Mamaco King.html">Ínicio</a>
+      
+  </body>
+</html>
