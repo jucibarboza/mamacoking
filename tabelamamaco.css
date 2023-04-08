@@ -1,0 +1,30 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 600px;
+    height: 400px;
+  }
+  td {
+    text-align: center;
+  }
+
+table{
+    border: 2px solid rgb(6, 6, 36);
+}
+tr, td, th{
+    border: 2px solid rgb(6, 6, 36);
+}
+
+th {
+    font-weight: bold;
+  }
+  
+
+td[colspan] {
+    text-align: center;
+    vertical-align: middle;
+  }
+ 
+  
