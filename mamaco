@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamaco King</title>
+
+    
+  </head>
+  
+    <body>
+      <img src="C:\Users\sjbar\OneDrive\Documentos\Temp\Fia\Bootcamp Soul Code\HTML\imagnes\logo.png">
+      <style>
+        body {background-color: rgb(227, 233, 241);}
+         body{ display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;      
+          }
+
+          .imagem1 {
+            position: absolute;
+            top:80%;
+            left: 30%;
+            transform: translate(-50%, -50%);
+          }
+          .imagem2 {
+            position: absolute;
+            top: 78%;
+            left: 45%;
+            
+          }
+          .imagem3 {
+            position: absolute;
+            top: 78%;
+            left: 64%;
+            
+          }
+          #paragrafo {
+            position: absolute;
+            top: 92%;
+            left: 50%;
+            transform: translate(-50%, -50%);}
+        
+    </style>
+
+    <img src="C:\Users\sjbar\OneDrive\Documentos\Temp\Fia\Bootcamp Soul Code\HTML\imagnes\papelaria.jpeg" alt="papelaria"style="height: 400px;">
+  
+    
+   
+   
+
+
+    <a href="Mamaco King preços.html"><img class="imagem2" src="imagnes/promocao.jpg" alt="promoção"style="height: 40px;"></a>
+    <a href="mailto:jucibarboza@gmail.com"><img class="imagem3" src="imagnes/contato.jpg" alt="contato"style="height: 38px;"></a>
+    <a href="Mamaco King  produtos.html"><img class="imagem1" src="imagnes/produto.jpg" alt="produto"style="height: 40px;"></a>
+      
+  </body>
+
+  
+  <footer>
+
+    <p id="paragrafo"> Jucilene Barboza &copy; 2023 </p>
+ </footer>
+</html
