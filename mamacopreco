@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamaco King Preços</title>
+    <link href="TabMamaco.css" rel="stylesheet" type="text/css">
+
+    
+  </head>
+  
+    <body>
+      <h1> Papelaria Mamaco King</h1>
+
+      <h3> Fecharemos a loja para reforma e, por isso, estamos <br/>
+        queimando nosso estoque. Aproveite!</h3>
+      <style> 
+     
+         body{ display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+          height: 100vh;
+          margin: 50;}
+
+          #background-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("imagnes/papelaria.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover; 
+            opacity: 0.1;
+            z-index: -1; 
+          }
+       
+
+          
+    </style>
+    
+    <div id="background-image"></div>
+    
+        <table >
+          <center>
+          <tr>
+            <td colspan="5"style="font-size: 20px; font-weight: bold" >Papelaria Mamaco King</td>
+          </tr>
+          <tr>
+            <th>Imagem</th>
+            <th>Produto</th>
+            <th>Estoque</th>
+            <th>Preço</th>
+            <th>Preço Promocional</th>
+          </tr>
+          <tr>
+            <td><a href="Mamaco King bic.html"  target="_blank" rel="external"><img src="imagnes/mamaco/bic.webp"alt="bic"style="height: 50px;"></a></td>
+            <td>Caneta Bic</td>
+            <td >50</td>         
+            <td>R$1,50</td>
+            <td>R$1,00</td>
+          </tr>
+          
+         
+       <tr>
+        <td><a href="Mamaco King caderno.html"  target="_blank" rel="external"><img src="imagnes/mamaco/caderno.jpeg"alt="caderno"style="height: 50px;"></a></td>
+            <td>Caderno Universitário</td>                     
+            <td>30</td>
+            <td>R$35,20</td>
+            <td>R$30,00</td>
+          </tr>
+
+
+          <tr>
+            <td><a href="Mamaco King sulfite.html"  target="_blank" rel="external"><img src="imagnes/mamaco/sulfite.webp"alt="sulfite"style="height: 50px;"></a></td>                      
+            <td>Folha Sulite 500 folhas</td>
+            <td>80</td>
+            <td>R$9,99</td>           
+            <td>R$7,25</td>
+          </tr>
+          
+          
+        <tr>
+          <td><a href="Mamaco King lapis_cor.html"  target="_blank" rel="external"><img src="imagnes/mamaco/lapis_cor.webp"alt="lapis_cor"style="height: 50px;"></a></td>
+            <td>Lápis de cor</td>
+            <td>20</td>
+            <td>R$34,00</td>
+            <td>R$28,90</td>
+          </tr>
+
+          <tr>
+            <td><a href="Mamaco King estojo.html"  target="_blank" rel="external"><img src="imagnes/mamaco/estojo.webp"alt="estojo"style="height: 50px;"></a></td>
+                <td>Estojo escolar</td>                     
+                <td>30</td>
+                <td>R$45,90</td>
+                <td>R$39,00</td>
+              </tr>
+        </center>
+        </table> <br/><br/>
+
+        <a href="Mamaco King.html">Voltar</a>
+      
+  </body>
+</html>
